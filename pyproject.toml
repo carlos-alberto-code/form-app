@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "form-app"
+version = "0.1.0"
+description = ""
+authors = ["Carlos Alberto Baltazar Hinojosa <A840159943@my.uvm.edu.mx>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+flet = "^0.24.1"
+sqlalchemy = "^2.0.36"
+alembic = "^1.14.0"
+mysql-connector-python = "^9.1.0"
+python-dotenv = "^1.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

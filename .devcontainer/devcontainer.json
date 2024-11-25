@@ -1,0 +1,26 @@
+{
+    "name": "Python GUI Development",
+    "build": {
+        "dockerfile": "Dockerfile",
+        "context": ".."
+    },
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "teabyii.ayu",
+                "PKief.material-icon-theme",
+                "ms-python.python",
+                "ms-python.pylance",
+                "ms-python.debugpy",
+                "ms-vsliveshare.vsliveshare",
+                "cweijan.vscode-mysql-client2",
+                "ms-vscode-remote.remote-containers"
+            ],
+            "settings": {
+                "python.defaultInterpreterPath": "/usr/local/bin/python",
+                "python.formatting.provider": "black",
+                "editor.formatOnSave": true
+            }
+        }
+    }
+}
